@@ -24,5 +24,10 @@ public class BoardServiceImpl implements BoardService{
 		return boardVO;
 	}
 
+	@Override
+	public void boardInsert(BoardVO boardVO) {
+		boardMap.boardInsert(boardVO);
+	}
+
 
 }

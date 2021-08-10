@@ -29,7 +29,7 @@
 				</tr>
 			</c:forEach>
 		</table>
-		<input type="button" value="글쓰기">
+		<a href="/board/boardForm.do">글 작성</a>
 	</div>
 </body>
 </html>

@@ -8,6 +8,8 @@ public interface BoardMapper {
 
 	 public abstract List<BoardVO> selectList();
 	 
-	 public abstract BoardVO boardView(int bnos);
+	 public abstract BoardVO boardView(int bno);
+	 
+	 public abstract void boardInsert(BoardVO boardVO);
 }
 

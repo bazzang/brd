@@ -18,4 +18,9 @@
 		where bno = #{bno}
 	</select>
 
+	<insert id="boardInsert" parameterType="org.zerock.myapp.domain.BoardVO">
+		insert into tbl_board
+		values(tbl_board_seq.nextVal, #{title}, #{writer}, sysdate, 0, #{content}, #{con_pw}, sysdate)
+	</insert>
+	
 </mapper>
