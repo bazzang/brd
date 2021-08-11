@@ -10,7 +10,7 @@
     <script type="text/javascript">
      function js_passCheck(con_pw){
     	 if(con_pw != ${data.con_pw}){
-    		 alert("비밀번호 틀림");
+    		 alert("비밀번호 틀림"); 
     	 	return;
     	 }
      }
